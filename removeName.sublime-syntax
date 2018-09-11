@@ -10,7 +10,7 @@ scope: source.c
 variables:
   identifier: \b[[:alpha:]_][[:alnum:]_]*\b # upper and lowercase
   macro_identifier: \b[[:upper:]_][[:upper:][:digit:]_]{2,}\b # only uppercase, at least 3 chars
-  control_keywords: 'se|fim-se|fim-main|enquanto|fim-enquanto|senao|para|fim-para|exibir|de|ate'
+  control_keywords: 'se|le|fim-se|fim-main|enquanto|fim-enquanto|senao|para|fim-para|exibir|de|ate'
   basic_types: 'numero|String'
   before_tag: 'struct|union|enum'
   microsoft_types: '__int8|__int16|__int32|__int64'
